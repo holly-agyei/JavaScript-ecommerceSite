@@ -10,7 +10,7 @@ def MaxMin(operations, x):
     temp_arr = []
     product_arr = []
 
-    for i in range(len(x)
+    for i in range(len(x
         if operations[i] == "push":
             push(x[i], temp_arr)
         else:
