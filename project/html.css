@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Session</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book a Session with [Roommate's Name]</h1>
+        
+        <!-- Dropdown to select available date -->
+        <label for="available-date">Available Date:</label>
+        <select id="available-date" required>
+            <option value="">Choose a date</option>
+            <!-- Dynamically populated dates -->
+        </select>
+
+        <!-- Dropdown to select available time -->
+        <label for="available-time">Available Time:</label>
+        <select id="available-time" required disabled>
+            <option value="">Choose a time</option>
+            <!-- Dynamically populated times -->
+        </select>
+
+        <form id="booking-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit" id="book-btn" disabled>Book Now</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
