@@ -51,4 +51,4 @@ app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
 
-https://leetcode.com/problems/roman-to-integer/?envType=study-plan-v2&envId=top-intervi
+https://leetcode.com/problems/roman-to-integer/?envType=study-plan-v2&envId=top-inter
